@@ -2,7 +2,8 @@ let user = {
     name: "Bob",
     age:22,
     isStudent: true,
-    isMarried: false
+    isMarried: false,
+    frends: ["Fred", "Donald", "Anna"]
 }
 
 /*let user2 = user
@@ -17,3 +18,7 @@ console.log (user)*/
     copyUser.name = "Alex"
     console.log (user)
     console.log (copyUser)
+    copyUser.frends.push("Helga")
+    console.log (user)
+
+    let deepCopy = {...user , frends:[...user.frends]}
