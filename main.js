@@ -22,3 +22,11 @@ console.log (user)*/
     console.log (user)
 
     let deepCopy = {...user , frends:[...user.frends]}
+
+    const students = [
+        {name: "Alex"},
+        {name: "Bob"},
+        {name: "Aria"},
+        {name: "SaraRid"},
+
+    ]
