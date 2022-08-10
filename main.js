@@ -30,3 +30,8 @@ console.log (user)*/
         {name: "SaraRid"},
 
     ]
+
+    let copySt = [...students] // poverxocthay copia
+    const getCopyStudent = (st) => ({...st})
+
+    let deepCopySt = students.map(getCopyStudent) // map - preobrazovat
