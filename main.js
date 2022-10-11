@@ -14,7 +14,7 @@ console.log (user)*/
 //let copyUser = {}
    // copyUser.name = user.name
 
-    let copyUser = {... user}
+   /*  let copyUser = {... user}
     copyUser.name = "Alex"
     console.log (user)
     console.log (copyUser)
@@ -35,3 +35,7 @@ console.log (user)*/
     const getCopyStudent = (st) => ({...st})
 
     let deepCopySt = students.map(getCopyStudent) // map - preobrazovat
+ */
+
+    const names = ["Artur", "Bob", "Vlad", "Bil"]
+    console.log (names.sort())
